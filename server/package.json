@@ -1,0 +1,23 @@
+{
+  "name": "startup-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon --verbose --ignore src/database.json src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-jsonschema": "^1.1.0",
+    "mongo-express": "^0.30.48",
+    "mongodb": "^2.1.16"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-plugin-node": "^1.0.0",
+    "nodemon": "^1.9.1"
+  }
+}

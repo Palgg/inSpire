@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "seatsAvail": {
+      "id": "http://jsonschema.net/seatsAvail",
+      "type": "boolean"
+    },
+    "keyword": {
+      "id": "http://jsonschema.net/keyword",
+      "type": "string"
+    },
+    "opFilter": {
+      "id": "http://jsonschema.net/opFilter",
+      "type": "object",
+      "properties": {}
+    },
+    "subject": {
+      "id": "http://jsonschema.net/subject",
+      "type": "string"
+    },
+    "genEdCategory": {
+      "id": "http://jsonschema.net/genEdCategory",
+      "type": "string"
+    },
+    "session": {
+      "id": "http://jsonschema.net/session",
+      "type": "string"
+    },
+    "instructionMode": {
+      "id": "http://jsonschema.net/instructionMode",
+      "type": "string"
+    }
+  },
+  "required": [
+    "seatsAvail",
+    "keyword",
+    "opFilter",
+    "subject",
+    "genEdCategory",
+    "session",
+    "instructionMode"
+  ]
+}
